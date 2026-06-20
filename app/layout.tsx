@@ -13,9 +13,30 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Dilan Liyanaarachchi | Portfolio",
-  description:
-    "Responsive portfolio with calm dark and light modes, project filtering, gallery, education, experience, and contact sections.",
+  title: "Dilan Liyanaarachchi | Full Stack & Data Science Enthusiast",
+  description: "I'm Dilan, a passionate Full Stack Developer skilled in React, TypeScript, Spring Boot, and Data Science. Explore my projects in AI, Web Development, and Software Engineering.",
+  keywords: ["Dilan Liyanaarachchi", "Full Stack Developer", "Software Engineer"], 
+  authors: [{ name: "Dilan Liyanaarachchi" }],
+  metadataBase: new URL("https://dilanliyanaarachchi.dev"), 
+  openGraph: {
+    type: "website",
+    url: "https://dilanliyanaarachchi.dev/",
+    title: "Dilan Liyanaarachchi | Full Stack & Data Science Enthusiast",
+    description: "Discover my work in Full Stack Development and Data Science. Built with React, TypeScript, Tailwind CSS, and Spring Boot.",
+    images: [
+      {
+        url: "/assets/profile.jpg",
+        alt: "Dilan Liyanaarachchi Portfolio",
+      },
+    ],
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Dilan Liyanaarachchi | Full Stack & Data Science Enthusiast",
+    description: "Full Stack Developer specializing in React, TypeScript, Spring Boot & Data Science. Explore my portfolio projects.",
+    images: ["/assets/profile.jpg"],
+  },
 };
 
 export default function RootLayout({
